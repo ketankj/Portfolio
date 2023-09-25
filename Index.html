@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="Viewport" content="Width=device-width, Initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/910217f307.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/KJ Logo-2.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>
+                        Computer Engineer
+                    </p>
+                    <h1>Hi, I'm <span>Ketan Joshi</span></h1>
+                </div>
+            </div>
+            <!-----------------------------about----------------------------------->
+
+        </div>
+        <div id="about">
+
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/ImageMe1.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Highly motivated and enthusiastic computer engineering graduate with a strong foundation in hardware and
+                            software systems. Eager to embark on a fulfilling career in the tech industry, leveraging problem-solving 
+                            skills, programming expertise, and a passion for innovation to contribute to cutting-edge projects. 
+                            Ready to adapt, learn, and excel in a dynamic team environment while continuously advancing my skills in 
+                            software company.
+
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android apps</li>
+                                <li><span>Programming Languages</span><br>C / C++ <br>Python <br>HTML <br>CSS <br> Java Script <br>MySQL</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Expected Aug 2025 - MS in Computer Science</span><br>University of Dayton, Ohio</li>
+                                <li><span>June 2022 - B.E. Computer Engineering</span><br>AISSMS College of Engineering - University of Pune. <br> CGPA-8.34</li>
+                                <li><span>Feb 2018- Higher Secondary Education(HSC)</span><br>Vidya Mandir Junior College,Miraj, Maharashtra. <br>64%</li>
+                                <li><span>March 2016- Secondary Education</span><br>Adarsh Shikshan Mandir, Miraj. <br>83%</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="interests">
+                            <ul>
+                                <li><span>Traveling/Trekking</span><br>spending time in nature gives me peace </li>
+                                <li><span>Gaming</span><br>Playing games with my buddies always cheers me up</li>
+                                <li><span>Reading</span><br>I like to read novels when i am alone </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------Portfolio------------------>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work </h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/robots3.png">
+                        <div class="layer">
+                            <h3>Medical Chatbot</h3>
+                            <p>A user-friendly web application where the user will put
+                                symptoms of a disease in the chatbot, and accordingly results will be shown using machine learning</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Music Player</h3>
+                            <p>Audio Player is a comprehensive music player to listen to all the sound files you have saved on your Android</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>A user friendly application to shope online easily</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!----------------------contact---------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>  joshik5@udayton.edu</p>
+                        <p><i class="fa-solid fa-phone"></i>  +1 (937)-313-03022</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100007844410993"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/Joshi38Ketan?t=dO2fAbQ8evHExUZSIcFzrA&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.instagram.com/kit_kat_ket.an?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ketan-joshi-7a8381186"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Ketan Joshi Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Ketan Joshi <i class="fa-solid fa-user"></i></p>
+            </div>
+        </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+        
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNy-BWKQdbM8bjMwMZYQBB9--K2F-acfzahqu3ptqbjeyR9-VBOfrnMFU7rl26vcOarw/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
